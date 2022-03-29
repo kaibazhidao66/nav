@@ -81,48 +81,25 @@ var se_list_preinstall = {
     },
     '10': {
         id: 10,
-        title: "京东",
-        url: "https://search.jd.com/Search",
-        name: "keyword",
-        icon: "iconfont icon-jingdong",
-    },
-    '11': {
-        id: 11,
         title: "淘宝",
         url: "https://s.taobao.com/search",
         name: "q",
         icon: "iconfont icon-taobao",
     },
-    '12': {
-        id: 12,
-        title: "百科",
-        url: "https://baike.baidu.com/search",
-        name: "word",
-        icon: "iconfont icon-baidu",
+    '11': {
+        id: 11,
+        title: "京东",
+        url: "https://search.jd.com/Search",
+        name: "keyword",
+        icon: "iconfont icon-jingdong",
     }
 };
 
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
-        title: "知乎",
-        url: "https://www.zhihu.com/",
-    },
-    '2': {
-        title: "豆瓣",
-        url: "https://www.douban.com/",
-    },
-    '3': {
-        title: "哔哩哔哩",
-        url: "https://www.bilibili.com/",
-    },
-    '4': {
-        title: "印象笔记",
-        url: "https://app.yinxiang.com/",
-    },
-    '5': {
-        title: "有道云笔记",
-        url: "https://note.youdao.com/",
+        title: "主页",
+        url: "https://www.xukaiyyds.cn/",
     }
 };
 
