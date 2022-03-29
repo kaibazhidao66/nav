@@ -25,81 +25,81 @@ var se_list_preinstall = {
     },
     '2': {
         id: 2,
-        title: "百科",
-        url: "https://baike.baidu.com/search",
-        name: "word",
-        icon: "iconfont icon-baidu",
-    },
-    '3': {
-        id: 3,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         icon: "iconfont icon-bing",
     },
-    '4': {
-        id: 4,
+    '3': {
+        id: 3,
         title: "谷歌",
         url: "https://www.google.com/search",
         name: "q",
         icon: "iconfont icon-google",
     },
-    '5': {
-        id: 5,
+    '4': {
+        id: 4,
         title: "搜狗",
         url: "https://www.sogou.com/web",
         name: "query",
         icon: "iconfont icon-sougousousuo",
     },
-    '6': {
-        id: 6,
+    '5': {
+        id: 5,
         title: "360",
         url: "https://www.so.com/s",
         name: "q",
         icon: "iconfont icon-360sousuo",
     },
-    '7': {
-        id: 7,
+    '6': {
+        id: 6,
         title: "知乎",
         url: "https://www.zhihu.com/search",
         name: "q",
         icon: "iconfont icon-zhihu",
     },
-    '8': {
-        id: 8,
+    '7': {
+        id: 7,
         title: "微博",
         url: "https://s.weibo.com/weibo",
         name: "q",
         icon: "iconfont icon-xinlangweibo",
     },
-    '9': {
-        id: 9,
+    '8': {
+        id: 8,
         title: "bilibili",
         url: "https://search.bilibili.com/all",
         name: "keyword",
         icon: "iconfont icon-bilibilidonghua",
     },
-    '10': {
-        id: 10,
+    '9': {
+        id: 9,
         title: "Github",
         url: "https://github.com/search",
         name: "q",
         icon: "iconfont icon-github",
     },
-    '11': {
-        id: 11,
+    '10': {
+        id: 10,
         title: "京东",
         url: "https://search.jd.com/Search",
         name: "keyword",
         icon: "iconfont icon-jingdong",
     },
-    '12': {
-        id: 12,
+    '11': {
+        id: 11,
         title: "淘宝",
         url: "https://s.taobao.com/search",
         name: "q",
         icon: "iconfont icon-taobao",
     },
+    '12': {
+        id: 12,
+        title: "百科",
+        url: "https://baike.baidu.com/search",
+        name: "word",
+        icon: "iconfont icon-baidu",
+    }
 };
 
 // 默认快捷方式

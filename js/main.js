@@ -1,6 +1,7 @@
 //加载完成后执行
 window.addEventListener('load', function () {
     //载入动画
+    $('#loading-box').attr('class', 'loaded');
     $('#bg').css("cssText", "transform: scale(1);filter: blur(0px);transition: ease 0.5s;");
     $('#section').css("cssText", "opacity: 1;transition: ease 0.5s;");
     $('.cover').css("cssText", "opacity: 1;transition: ease 0.5s;");
