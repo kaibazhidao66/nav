@@ -45,6 +45,13 @@
             </div>
         </div>
     </div>
+    <script>
+        setTimeout(() => {
+        $('#loading-box').attr('class', 'loaded');
+        $('body').css('overflow-y','scroll');
+        },1000);
+    </script>
+    <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
     <!-- 背景图片 -->
     <div class="bg-all">
         <img id="bg" onerror="this.classList.add('error');"></img>
@@ -121,37 +128,17 @@
                         <div class="tab-item active">常用</div>
                         <div class="tab-item">工具</div>
                         <div class="tab-item">开发</div>
-                        <div class="tab-item">娱乐</div>
-                        <div class="tab-item">学习</div>
                         <div class="tab-item">设计</div>
+                        <div class="tab-item">学习</div>
+                        <div class="tab-item">娱乐</div>
                     </div>
                     <div class="content products">
                         <!-- 常用 -->
                         <div class="mainCont selected">
                             <div class="quick-all">
-                                <div class="quick" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
-                                    </a>
-                                </div>
-                                <div class="quick" data-s="github" title="GitHub">
-                                    <a href="https://github.com/" target="_blank">
-                                        GitHub
-                                    </a>
-                                </div>
-                                <div class="quick" data-s="v2ex" title="V2EX">
-                                    <a href="https://www.v2ex.com/" target="_blank">
-                                        V2EX
-                                    </a>
-                                </div>
-                                <div class="quick" data-s="steam" title="Steam">
-                                    <a href="https://store.steampowered.com/" target="_blank">
-                                        Steam
-                                    </a>
-                                </div>
-                                <div class="quick" data-s="scp" title="控制，收容，保护">
-                                    <a href="http://scp-wiki-cn.wikidot.com/" target="_blank">
-                                        scp基金会2
+                                <div class="quick">
+                                    <a href="https://www.xukaiyyds.cn/" target="_blank">
+                                        主页
                                     </a>
                                 </div>
                             </div>
@@ -159,24 +146,54 @@
                         <!-- 工具 -->
                         <div class="mainCont">
                             <div class="quick-alls">
-                                <div class="quicks" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
+                                <div class="quicks">
+                                    <a href="https://tool.lu/" target="_blank">
+                                        在线工具
                                     </a>
                                 </div>
-                                <div class="quicks" data-s="github" title="GitHub">
-                                    <a href="https://github.com/" target="_blank">
-                                        GitHub
+                                <div class="quicks">
+                                    <a href="https://c.runoob.com/" target="_blank">
+                                        菜鸟工具
                                     </a>
                                 </div>
-                                <div class="quicks" data-s="v2ex" title="V2EX">
-                                    <a href="https://www.v2ex.com/" target="_blank">
-                                        V2EX
+                                <div class="quicks">
+                                    <a href="https://tools.miku.ac/" target="_blank">
+                                        工具集合
                                     </a>
                                 </div>
-                                <div class="quicks" data-s="steam" title="Steam">
-                                    <a href="https://store.steampowered.com/" target="_blank">
-                                        Steam
+                                <div class="quicks">
+                                    <a href="https://www.toolnb.com/" target="_blank">
+                                        爱资料工具
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://cli.im/" target="_blank">
+                                        草料二维码
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.superbed.cn/" target="_blank">
+                                        聚合图床
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://translate.google.cn/" target="_blank">
+                                        谷歌翻译
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://weibomiaopai.com/" target="_blank">
+                                        视频下载
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.eggvod.cn/music/" target="_blank">
+                                        音乐下载
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://cdkm.com/cn/" target="_blank">
+                                        文件转换
                                     </a>
                                 </div>
                             </div>
@@ -184,44 +201,54 @@
                         <!-- 开发 -->
                         <div class="mainCont">
                             <div class="quick-alls">
-                                <div class="quicks" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
+                                <div class="quicks">
+                                    <a href="https://www.jianshu.com/" target="_blank">
+                                        简书
                                     </a>
                                 </div>
-                                <div class="quicks" data-s="github" title="GitHub">
+                                <div class="quicks">
+                                    <a href="https://juejin.cn/" target="_blank">
+                                        掘金
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.nowcoder.com/" target="_blank">
+                                        牛客网
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.cnblogs.com/" target="_blank">
+                                        博客园
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.oschina.net/" target="_blank">
+                                        开源中国
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.csdn.net/" target="_blank">
+                                        CSDN
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://vercel.com/" target="_blank">
+                                        Vercel
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://gitee.com/" target="_blank">
+                                        Gitee
+                                    </a>
+                                </div>
+                                <div class="quicks">
                                     <a href="https://github.com/" target="_blank">
                                         GitHub
                                     </a>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- 娱乐 -->
-                        <div class="mainCont">
-                            <div class="quick-alls">
-                                <div class="quicks" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
-                                    </a>
-                                </div>
-                                <div class="quicks" data-s="github" title="GitHub">
-                                    <a href="https://github.com/" target="_blank">
-                                        GitHub
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 学习 -->
-                        <div class="mainCont">
-                            <div class="quick-alls">
-                                <div class="quicks" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
-                                    </a>
-                                </div>
-                                <div class="quicks" data-s="github" title="GitHub">
-                                    <a href="https://github.com/" target="_blank">
-                                        GitHub
+                                <div class="quicks">
+                                    <a href="https://codepen.io/" target="_blank">
+                                        CodePen
                                     </a>
                                 </div>
                             </div>
@@ -229,14 +256,164 @@
                         <!-- 设计 -->
                         <div class="mainCont">
                             <div class="quick-alls">
-                                <div class="quicks" data-s="bilibili" title="哔哩哔哩 (゜-゜)つロ 干杯~">
-                                    <a href="https://www.bilibili.com/" target="_blank">
-                                        哔哩哔哩
+                                <div class="quicks">
+                                    <a href="https://huaban.com/" target="_blank">
+                                        花瓣网
                                     </a>
                                 </div>
-                                <div class="quicks" data-s="github" title="GitHub">
-                                    <a href="https://github.com/" target="_blank">
-                                        GitHub
+                                <div class="quicks">
+                                    <a href="https://sspai.com/" target="_blank">
+                                        少数派
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://wallpaperhub.app/" target="_blank">
+                                        wallpaperhub 墙纸
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://wallhaven.cc/" target="_blank">
+                                        wallhaven 壁纸
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://unsplash.com/" target="_blank">
+                                        unsplash 图片
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://pixabay.com/zh/photos/" target="_blank">
+                                        图片素材
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.iconfinder.com/" target="_blank">
+                                        矢量图标
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.iconfont.cn/" target="_blank">
+                                        矢量图标库
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://fonts.google.com/" target="_blank">
+                                        Google Font
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://fonts.adobe.com/" target="_blank">
+                                        Adobe Fonts
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 学习 -->
+                        <div class="mainCont">
+                            <div class="quick-alls">
+                                <div class="quicks">
+                                    <a href="https://www.chaoxing.com/" target="_blank">
+                                        超星
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.cnki.net/" target="_blank">
+                                        知网
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://open.163.com/" target="_blank">
+                                        公开课
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.zhihuishu.com/" target="_blank">
+                                        智慧树
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.icve.com.cn/" target="_blank">
+                                        智慧职教
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.icourse163.org/" target="_blank">
+                                        MOOC
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://developer.mozilla.org/zh-CN/docs/Web" target="_blank">
+                                        MDN Web
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.runoob.com/" target="_blank">
+                                        菜鸟教程
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.w3school.com.cn/" target="_blank">
+                                        W3school
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://chinese.freecodecamp.org/" target="_blank">
+                                        freeCodeCamp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 娱乐 -->
+                        <div class="mainCont">
+                            <div class="quick-alls">
+                                <div class="quicks">
+                                    <a href="https://www.acfun.cn/" target="_blank">
+                                        AcFun
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.cupfox.com/" target="_blank">
+                                        茶杯狐
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://ddrk.me/" target="_blank">
+                                        低端影视
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.dikotv1.com/" target="_blank">
+                                        顶空影视
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://jikipedia.com/" target="_blank">
+                                        小鸡词典
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://www.douyin.com/" target="_blank">
+                                        抖音
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://weibo.com/" target="_blank">
+                                        微博
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://v.qq.com/" target="_blank">
+                                        腾讯视频
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://y.qq.com/" target="_blank">
+                                        QQ音乐
+                                    </a>
+                                </div>
+                                <div class="quicks">
+                                    <a href="https://music.163.com/" target="_blank">
+                                        网易云音乐
                                     </a>
                                 </div>
                             </div>
@@ -347,7 +524,7 @@
                                         <div class="quick_list_table">
                                             <div class="quick_list_div">
                                                 <div class="quick_list_div_num">1</div>
-                                                <div class="quick_list_div_name">哔哩哔哩</div>
+                                                <div class="quick_list_div_name">知乎</div>
                                                 <div class="quick_list_div_button">
                                                     <div class="edit_quick" value="1">
                                                         <span class="iconfont iconbook-edit"></span>
@@ -359,7 +536,7 @@
                                             </div>
                                             <div class="quick_list_div">
                                                 <div class="quick_list_div_num">2</div>
-                                                <div class="quick_list_div_name">知乎</div>
+                                                <div class="quick_list_div_name">豆瓣</div>
                                                 <div class="quick_list_div_button">
                                                     <button class="edit_quick" value="2"
                                                         style="border-radius: 8px 0px 0px 8px;">
@@ -459,7 +636,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
                                             <div id="wallpaper_url" style="display: none;">
                                                 <div class="from_row">
@@ -490,7 +666,6 @@
                                     <input type="file" id="my_data_file" name="file" style="display: none">
                                 </div>
                                 <div class="set_version">
-                                    <span class="set_version-text">XKの自定义</span>
                                     <span class="set_version-text2">Made with ❤ by xukai</span>
                                 </div>
                             </div>

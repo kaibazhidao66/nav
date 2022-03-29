@@ -25,66 +25,66 @@ var se_list_preinstall = {
     },
     '2': {
         id: 2,
+        title: "百科",
+        url: "https://baike.baidu.com/search",
+        name: "word",
+        icon: "iconfont icon-baidu",
+    },
+    '3': {
+        id: 3,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         icon: "iconfont icon-bing",
     },
-    '3': {
-        id: 3,
+    '4': {
+        id: 4,
         title: "谷歌",
         url: "https://www.google.com/search",
         name: "q",
         icon: "iconfont icon-google",
     },
-    '4': {
-        id: 4,
+    '5': {
+        id: 5,
         title: "搜狗",
         url: "https://www.sogou.com/web",
         name: "query",
         icon: "iconfont icon-sougousousuo",
     },
-    '5': {
-        id: 5,
+    '6': {
+        id: 6,
         title: "360",
         url: "https://www.so.com/s",
         name: "q",
         icon: "iconfont icon-360sousuo",
     },
-    '6': {
-        id: 6,
+    '7': {
+        id: 7,
         title: "知乎",
         url: "https://www.zhihu.com/search",
         name: "q",
         icon: "iconfont icon-zhihu",
     },
-    '7': {
-        id: 7,
+    '8': {
+        id: 8,
         title: "微博",
         url: "https://s.weibo.com/weibo",
         name: "q",
         icon: "iconfont icon-xinlangweibo",
     },
-    '8': {
-        id: 8,
-        title: "BiliBili",
+    '9': {
+        id: 9,
+        title: "bilibili",
         url: "https://search.bilibili.com/all",
         name: "keyword",
         icon: "iconfont icon-bilibilidonghua",
     },
-    '9': {
-        id: 9,
+    '10': {
+        id: 10,
         title: "Github",
         url: "https://github.com/search",
         name: "q",
         icon: "iconfont icon-github",
-    },
-    '10': {
-        id: 10,
-        title: "淘宝",
-        url: "https://s.taobao.com/search",
-        name: "q",
-        icon: "iconfont icon-taobao",
     },
     '11': {
         id: 11,
@@ -95,39 +95,35 @@ var se_list_preinstall = {
     },
     '12': {
         id: 12,
-        title: "京东",
-        url: "https://search.jd.com/Search",
-        name: "keyword",
-        icon: "iconfont icon-jingdong",
-    }
+        title: "淘宝",
+        url: "https://s.taobao.com/search",
+        name: "q",
+        icon: "iconfont icon-taobao",
+    },
 };
 
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
+        title: "知乎",
+        url: "https://www.zhihu.com/",
+    },
+    '2': {
+        title: "豆瓣",
+        url: "https://www.douban.com/",
+    },
+    '3': {
         title: "哔哩哔哩",
         url: "https://www.bilibili.com/",
     },
-    '2': {
-        title: "GitHub",
-        url: "https://github.com/",
-    },
-    '3': {
-        title: "V2EX",
-        url: "https://www.v2ex.com/",
-    },
     '4': {
-        title: "Steam",
-        url: "https://store.steampowered.com/",
+        title: "印象笔记",
+        url: "https://app.yinxiang.com/",
     },
-    // '5': {
-    //     title: "Github",
-    //     url: "https://github.com/",
-    // },
-    // '6': {
-    //     title: "Github",
-    //     url: "https://github.com/",
-    // }
+    '5': {
+        title: "有道云笔记",
+        url: "https://note.youdao.com/",
+    }
 };
 
 // 获取搜索引擎列表
@@ -218,7 +214,12 @@ function setBgImgInit() {
             pictures[12] = './img/cover_3.jpg';
             pictures[13] = './img/cover_4.jpg';
             pictures[14] = './img/cover_5.jpg';
-            var rd = Math.floor(Math.random() * 15);
+            pictures[15] = './img/cover_6.jpg';
+            pictures[16] = './img/cover_7.jpg';
+            pictures[17] = './img/cover_8.jpg';
+            pictures[18] = './img/cover_9.jpg';
+            pictures[19] = './img/cover_10.jpg';
+            var rd = Math.floor(Math.random() * 20);
             $('#bg').attr('src', pictures[rd]) //默认
             break;
         case "2":

@@ -907,7 +907,6 @@ input[type="radio"]:checked+label {
 
 .set_version-text2 {
     font-size: small;
-    color: var(--main-background-active-color);
 }
 
 /*页脚*/
