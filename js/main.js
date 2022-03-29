@@ -87,7 +87,33 @@ fetch('https://yiketianqi.com/api?unescape=1&version=v6&appid=43986679&appsecret
     })
     .catch(console.error)
 
-//火狐浏览器独立样式
+//屏蔽右键
+document.oncontextmenu = function () {
+    iziToast.info({
+        timeout: 3000,
+        iconUrl: './img/warn.png',
+        title: '温馨提醒',
+        message: '为了浏览体验，本站禁用右键'
+    });
+    return false;
+}
+
+//屏蔽终端
+document.onkeydown = function (event) {
+    if (window.event && window.event.keyCode === 123) {
+        event.keyCode = 0;
+        event.returnValue = false;
+        iziToast.info({
+            timeout: 3000,
+            iconUrl: './img/warn.png',
+            title: '温馨提醒',
+            message: '为了浏览体验，本站禁用 F12'
+        });
+    return false;
+    }
+}
+
+//兼容提醒
 if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement('link');
@@ -96,12 +122,12 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
     link.type = 'text/css';
     head.appendChild(link);
     window.addEventListener('load', function () {
-        setTimeout(function () {
-            iziToast.show({
-                timeout: 8000,
-                message: '您正在使用火狐浏览器，部分功能可能不支持'
-            });
-        }, 3800);
+        iziToast.info({
+            timeout: 5000,
+            iconUrl: './img/warn.png',
+            title: '兼容提醒',
+            message: '您正在使用火狐浏览器，部分功能可能不支持'
+        });
     }, false)
 }
 
