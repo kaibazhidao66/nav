@@ -25,69 +25,76 @@ var se_list_preinstall = {
     },
     '2': {
         id: 2,
+        title: "百科",
+        url: "https://baike.baidu.com/search",
+        name: "word",
+        icon: "iconfont icon-baidu",
+    },
+    '3': {
+        id: 3,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         icon: "iconfont icon-bing",
     },
-    '3': {
-        id: 3,
+    '4': {
+        id: 4,
         title: "谷歌",
         url: "https://www.google.com/search",
         name: "q",
         icon: "iconfont icon-google",
     },
-    '4': {
-        id: 4,
+    '5': {
+        id: 5,
         title: "搜狗",
         url: "https://www.sogou.com/web",
         name: "query",
         icon: "iconfont icon-sougousousuo",
     },
-    '5': {
-        id: 5,
+    '6': {
+        id: 6,
         title: "360",
         url: "https://www.so.com/s",
         name: "q",
         icon: "iconfont icon-360sousuo",
     },
-    '6': {
-        id: 6,
+    '7': {
+        id: 7,
         title: "知乎",
         url: "https://www.zhihu.com/search",
         name: "q",
         icon: "iconfont icon-zhihu",
     },
-    '7': {
-        id: 7,
+    '8': {
+        id: 8,
         title: "微博",
         url: "https://s.weibo.com/weibo",
         name: "q",
         icon: "iconfont icon-xinlangweibo",
     },
-    '8': {
-        id: 8,
-        title: "bilibili",
+    '9': {
+        id: 9,
+        title: "BiliBili",
         url: "https://search.bilibili.com/all",
         name: "keyword",
         icon: "iconfont icon-bilibilidonghua",
     },
-    '9': {
-        id: 9,
-        title: "Github",
+    '10': {
+        id: 10,
+        title: "GitHub",
         url: "https://github.com/search",
         name: "q",
         icon: "iconfont icon-github",
     },
-    '10': {
-        id: 10,
+    '11': {
+        id: 11,
         title: "淘宝",
         url: "https://s.taobao.com/search",
         name: "q",
         icon: "iconfont icon-taobao",
     },
-    '11': {
-        id: 11,
+    '12': {
+        id: 12,
         title: "京东",
         url: "https://search.jd.com/Search",
         name: "keyword",
