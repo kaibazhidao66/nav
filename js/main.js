@@ -92,8 +92,8 @@ document.oncontextmenu = function () {
     iziToast.info({
         timeout: 3000,
         iconUrl: './img/warn.png',
-        // title: '温馨提醒',
-        message: '为了浏览体验，本站禁用右键'
+        title: '温馨提醒',
+        message: '本站禁用右键'
     });
     return false;
 }
@@ -106,8 +106,8 @@ document.onkeydown = function (event) {
         iziToast.info({
             timeout: 3000,
             iconUrl: './img/warn.png',
-            // title: '温馨提醒',
-            message: '为了浏览体验，本站禁用 F12'
+            title: '温馨提醒',
+            message: '本站禁用 F12'
         });
     return false;
     }
@@ -125,7 +125,7 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
         iziToast.info({
             timeout: 5000,
             iconUrl: './img/warn.png',
-            // title: '兼容提醒',
+            title: '兼容提醒',
             message: '您正在使用火狐浏览器，部分功能可能不支持'
         });
     }, false)
