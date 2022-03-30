@@ -74,14 +74,14 @@ var se_list_preinstall = {
     },
     '9': {
         id: 9,
-        title: "BiliBili",
+        title: "B站",
         url: "https://search.bilibili.com/all",
         name: "keyword",
         icon: "iconfont icon-bilibilidonghua",
     },
     '10': {
         id: 10,
-        title: "GitHub",
+        title: "项目",
         url: "https://github.com/search",
         name: "q",
         icon: "iconfont icon-github",
@@ -105,7 +105,7 @@ var se_list_preinstall = {
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
-        title: "主页",
+        title: "XKの主页",
         url: "https://www.xukaiyyds.cn/",
     }
 };
@@ -193,17 +193,7 @@ function setBgImgInit() {
             pictures[7] = './img/background8.webp';
             pictures[8] = './img/background9.webp';
             pictures[9] = './img/background10.webp';
-            pictures[10] = './img/cover_1.jpg';
-            pictures[11] = './img/cover_2.jpg';
-            pictures[12] = './img/cover_3.jpg';
-            pictures[13] = './img/cover_4.jpg';
-            pictures[14] = './img/cover_5.jpg';
-            pictures[15] = './img/cover_6.jpg';
-            pictures[16] = './img/cover_7.jpg';
-            pictures[17] = './img/cover_8.jpg';
-            pictures[18] = './img/cover_9.jpg';
-            pictures[19] = './img/cover_10.jpg';
-            var rd = Math.floor(Math.random() * 20);
+            var rd = Math.floor(Math.random() * 10);
             $('#bg').attr('src', pictures[rd]) //默认
             break;
         case "2":

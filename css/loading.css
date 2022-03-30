@@ -6,7 +6,7 @@
     z-index: 999998;
     width: 50%;
     height: 100%;
-    background-color: rgb(80 80 80 / 100%);
+    background-color: rgb(80 80 80 / 80%);
     transition: all 0.5s cubic-bezier(0.42, 0, 0, 1.01);
     backdrop-filter: blur(10px);
 }
