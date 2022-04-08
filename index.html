@@ -34,21 +34,27 @@
 </head>
 
 <body>
-    <!--加载动画-->
+    <!-- 加载动画 -->
     <div id="loading-box">
-        <div class="loading-left-bg"></div>
-        <div class="loading-right-bg"></div>
-        <div class="spinner-box">
-            <div class="loader">
-                <div class="inner one"></div>
-                <div class="inner two"></div>
-                <div class="inner three"></div>
-            </div>
-            <div class="loading-word">
-                <span id="loading-text">请稍候</span>
-            </div>
-        </div>
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+    <div class="configure-border-1">
+    <div class="configure-core"></div>
     </div>
+    <div class="configure-border-2">
+    <div class="configure-core"></div>
+    </div>
+    <div class="loading-word">请稍候...</div>
+    </div>
+    </div>
+    <script>
+    var endLoading = function () {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loading-box').classList.add("loaded");
+    }
+    window.addEventListener('load',endLoading);
+    </script>
     <!-- 背景图片 -->
     <div class="bg-all">
         <img id="bg" onerror="this.classList.add('error');"></img>
