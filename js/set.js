@@ -192,7 +192,8 @@ function setBgImgInit() {
             pictures[6] = './img/background7.webp';
             pictures[7] = './img/background8.webp';
             pictures[8] = './img/background1.png';
-            var rd = Math.floor(Math.random() * 9);
+            pictures[9] = './img/background2.png';
+            var rd = Math.floor(Math.random() * 10);
             $('#bg').attr('src', pictures[rd]) //默认
             break;
         case "2":
