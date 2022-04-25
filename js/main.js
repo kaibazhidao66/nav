@@ -91,7 +91,7 @@ fetch('https://yiketianqi.com/api?unescape=1&version=v6&appid=43986679&appsecret
 document.oncontextmenu = function () {
     iziToast.info({
         timeout: 3000,
-        iconUrl: './img/warn.png',
+        icon: 'none',
         title: '温馨提醒',
         message: '本站禁用右键'
     });
@@ -105,7 +105,7 @@ document.onkeydown = function (event) {
         event.returnValue = false;
         iziToast.info({
             timeout: 3000,
-            iconUrl: './img/warn.png',
+            icon: 'none',
             title: '温馨提醒',
             message: '本站禁用 F12'
         });
@@ -124,7 +124,7 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
     window.addEventListener('load', function () {
         iziToast.info({
             timeout: 5000,
-            iconUrl: './img/warn.png',
+            icon: 'none',
             title: '兼容提醒',
             message: '您正在使用火狐浏览器，部分功能可能不支持'
         });
