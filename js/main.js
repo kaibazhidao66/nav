@@ -89,9 +89,8 @@ fetch('https://yiketianqi.com/api?unescape=1&version=v6&appid=43986679&appsecret
 
 //屏蔽右键
 document.oncontextmenu = function () {
-    iziToast.info({
+    iziToast.show({
         timeout: 3000,
-        icon: 'none',
         title: '温馨提醒',
         message: '本站禁用右键'
     });
@@ -103,9 +102,8 @@ document.onkeydown = function (event) {
     if (window.event && window.event.keyCode === 123) {
         event.keyCode = 0;
         event.returnValue = false;
-        iziToast.info({
+        iziToast.show({
             timeout: 3000,
-            icon: 'none',
             title: '温馨提醒',
             message: '本站禁用 F12'
         });
@@ -122,9 +120,8 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
     link.type = 'text/css';
     head.appendChild(link);
     window.addEventListener('load', function () {
-        iziToast.info({
+        iziToast.show({
             timeout: 5000,
-            icon: 'none',
             title: '兼容提醒',
             message: '您正在使用火狐浏览器，部分功能可能不支持'
         });

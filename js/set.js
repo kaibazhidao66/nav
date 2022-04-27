@@ -203,9 +203,12 @@ function setBgImgInit() {
             $('#bg').attr('src', 'https://api.ixiaowai.cn/gqapi/gqapi.php') //风景
             break;
         case "4":
-            $('#bg').attr('src', 'https://api.ixiaowai.cn/api/api.php') //二次元
+            $('#bg').attr('src', 'https://api.ixiaowai.cn/mcapi/mcapi.php') //动漫
             break;
         case "5":
+            $('#bg').attr('src', 'https://api.ixiaowai.cn/api/api.php') //二次元
+            break;
+        case "6":
             $('#bg').attr('src', bg_img["path"]) //自定义
             break;
     }
@@ -1076,7 +1079,7 @@ $(document).ready(function () {
         }
 
         if (type === "4") {
-            $('#wallpaper_text').html("显示随机二次元，每次刷新后更换 | API @ 小歪");
+            $('#wallpaper_text').html("显示随机动漫图，每次刷新后更换 | API @ 小歪");
             setBgImg(bg_img);
             iziToast.show({
                 message: '壁纸设置成功，刷新生效',
@@ -1084,6 +1087,14 @@ $(document).ready(function () {
         }
 
         if (type === "5") {
+            $('#wallpaper_text').html("显示随机二次元，每次刷新后更换 | API @ 小歪");
+            setBgImg(bg_img);
+            iziToast.show({
+                message: '壁纸设置成功，刷新生效',
+            });
+        }
+
+        if (type === "6") {
             $('#wallpaper_text').html("自定义壁纸，输入地址后点击保存、刷新页面即可");
             $("#wallpaper_url").fadeIn(100);
             $("#wallpaper-button").fadeIn(100);
