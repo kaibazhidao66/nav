@@ -9,7 +9,7 @@ github：https://github.com/5iux/sou
 github：https://github.com/yeetime/sou2
 日期：2019-12-13
 ========================================
-由 凯伊兹 二次修改
+由 凯心过 二次修改
 github：https://github.com/kaibazhidao66/nav
 日期：2022-03-28
 */
@@ -183,17 +183,37 @@ function setBgImgInit() {
     switch (bg_img["type"]) {
         case "1":
             var pictures = new Array();
-            pictures[0] = './img/background1.webp';
-            pictures[1] = './img/background2.webp';
-            pictures[2] = './img/background3.webp';
-            pictures[3] = './img/background4.webp';
-            pictures[4] = './img/background5.webp';
-            pictures[5] = './img/background6.webp';
-            pictures[6] = './img/background7.webp';
-            pictures[7] = './img/background8.webp';
-            pictures[8] = './img/background1.png';
-            pictures[9] = './img/background2.png';
-            var rd = Math.floor(Math.random() * 10);
+            pictures[0] = './img/001.jpg';
+            pictures[1] = './img/002.jpg';
+            pictures[2] = './img/003.jpg';
+            pictures[3] = './img/004.jpg';
+            pictures[4] = './img/005.jpg';
+            pictures[5] = './img/006.jpg';
+            pictures[6] = './img/007.jpg';
+            pictures[7] = './img/008.jpg';
+            pictures[8] = './img/009.jpg';
+            pictures[9] = './img/010.jpg';
+            pictures[10] = './img/011.jpg';
+            pictures[11] = './img/012.jpg';
+            pictures[12] = './img/013.jpg';
+            pictures[13] = './img/014.jpg';
+            pictures[14] = './img/015.jpg';
+            pictures[15] = './img/016.jpg';
+            pictures[16] = './img/017.jpg';
+            pictures[17] = './img/018.jpg';
+            pictures[18] = './img/019.jpg';
+            pictures[19] = './img/020.jpg';
+            pictures[20] = './img/021.jpg';
+            pictures[21] = './img/022.jpg';
+            pictures[22] = './img/023.jpg';
+            pictures[23] = './img/024.jpg';
+            pictures[24] = './img/background1.webp';
+            pictures[25] = './img/background2.webp';
+            pictures[26] = './img/background3.webp';
+            pictures[27] = './img/background4.webp';
+            pictures[28] = './img/background5.webp';
+            pictures[29] = './img/background6.webp';
+            var rd = Math.floor(Math.random() * 30);
             $('#bg').attr('src', pictures[rd]) //默认
             break;
         case "2":
@@ -1055,7 +1075,7 @@ $(document).ready(function () {
         bg_img["type"] = type;
 
         if (type === "1") {
-            $('#wallpaper_text').html("显示本站默认壁纸，随机显示 | API @ 凯伊兹");
+            $('#wallpaper_text').html("显示本站默认壁纸，随机显示 | API @ 凯心过");
             setBgImg(bg_img);
             iziToast.show({
                 message: '壁纸设置成功，刷新生效',
