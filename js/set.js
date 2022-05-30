@@ -105,22 +105,27 @@ var se_list_preinstall = {
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
+        id: 1,
         title: "QQ邮箱",
         url: "https://mail.qq.com/",
     },
     '2': {
+        id: 2,
         title: "163邮箱",
         url: "https://mail.163.com/",
     },
     '3': {
+        id: 3,
         title: "Gmail邮箱",
         url: "https://mail.google.com/",
     },
     '4': {
+        id: 4,
         title: "印象笔记",
         url: "https://app.yinxiang.com/",
     },
     '5': {
+        id: 5,
         title: "有道云笔记",
         url: "https://note.youdao.com/",
     },
